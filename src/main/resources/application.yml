@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring-boot-rabbitmq
+  rabbitmq:
+    host: 192.168.198.88
+    port: 5672
+    username: root
+    password: root
+    # 设置手动确认
+    publisher-confirms: true
+#    publisher-returns: true
+server:
+  port: 8080
+  servlet-path:
+  tomcat:
+    uri-encoding: utf-8
